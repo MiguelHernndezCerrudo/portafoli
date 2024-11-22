@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Galeria de gatos",
+    "description": "Una pagina sin formato que contiene imagenes de gatitos.",
+    "imgSrc": "gatos.png",
+    "link": "/assets/gatos.png"
+  },
+  {
+    "id": 2,
+    "title": "Menu Cafeteria",
+    "description": "El menu para una cafeteria con iconos.",
+    "imgSrc": "menu.png",
+    "link": "/assets/menu.png"
+  },
+  {
+    "id": 3,
+    "title": "Cartelera de Netflix",
+    "description": "Galeria que emplea el modelo card, hecho con react imitandom la cartelera antigua de netflix.",
+    "imgSrc": "netflix.png",
+    "link": "/assets/netflix.png"
+  },
+  {
+    "id": 4,
+    "title": "Tienda de zapatillas",
+    "description": "Galeria de cards hecha con react y grid donde se muestran las nuevas zapatillas y llas ofertas",
+    "imgSrc": "tienda.png",
+    "link": "/assets/tienda.png"
+  },
+  {
+    "id": 5,
+    "title": "Agencia de viajes",
+    "description": "Pagina web hecha con componentes separados en react simulando una agencia de viajes",
+    "imgSrc": "trivago.png",
+    "link": "/assets/trivago.png"
+  }
+]

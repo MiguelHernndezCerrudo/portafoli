@@ -1,13 +1,13 @@
 import "./App.css";
 
-import Footer from "./componentes/Footer.jsx";
-import Header from "./componentes/Header.jsx";
-import Navegacion from "./componentes/Navegacion.jsx";
+import Footer from './componentes/Footer';
+import Header from "./componentes/Header";
+import Navegacion from "./componentes/Navegacion";
 
-import ContactPage from "./pages/ContactPage.jsx";
-import HomePage from "./pages/HomePage.jsx";
-import BlogPage from "./pages/blog.jsx";
-import OurPage from "./pages/nosotros.jsx";
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/blog";
+import OurPage from "./pages/nosotros";
 
 import {
     BrowserRouter as Router,

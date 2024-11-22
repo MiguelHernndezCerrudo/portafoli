@@ -1,38 +1,82 @@
+/* Estilos generales de la aplicación */
+
+/* Estilo de la aplicación principal */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+.header {
+  background-color: #bd3434;  /* Color de fondo */
+  color: white;               /* Texto blanco */
+  padding: 20px;
+  text-align: center;         /* Centrar el texto */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Navegación */
+.contenedor-nav {
+  background-color: #333;  /* Color de fondo */
+  text-align: center;
+}
+
+.navegacion-principal {
+  display: inline-block;    /* Centrar los enlaces */
+  padding: 10px;
+}
+
+.navegacion-principal a {
   color: white;
+  text-decoration: none;    /* Quitar subrayado */
+  margin: 0 15px;           /* Espaciado entre enlaces */
+  font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.navegacion-principal a:hover {
+  color: #bd3434;           /* Color al pasar el ratón */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* HomePage */
+.homepage {
+  padding: 30px;
+  text-align: center;
 }
+
+.homepage h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.homepage p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;  /* Color de fondo */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 1.5rem;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer .Footcont {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
