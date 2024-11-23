@@ -1,0 +1,113 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo para el main */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.present, .exp {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.present h1, .exp h1 {
+    font-size: 1.8rem;
+    color: #bd3434;
+    margin-bottom: 15px;
+}
+
+.present p, .exp p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Estilo para aside */
+aside {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.asideCont {
+    text-align: center;
+}
+
+.asideCont h1 {
+    font-size: 1.8rem;
+    color: #bd3434;
+    margin-bottom: 15px;
+}
+
+.asideCont p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la lista*/
+.asideCont ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.asideCont ul li {
+    margin: 10px 0;
+}
+
+.asideCont ul li a {
+    display: block;
+    background-color: #bd3434;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.asideCont ul li a:hover {
+    background-color: #bd3434;
+    transform: translateY(-3px);
+}
+
+.asideCont ul li a:active {
+    transform: translateY(0);
+    background-color: #bd3434;
+}
+
+/* Para mantener un diseño responsive */
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+}
