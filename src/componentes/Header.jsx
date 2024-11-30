@@ -2,7 +2,7 @@ export default function Header(){
     return (
         <header className="header">
             <div className="headcont">
-                <h1>el nombre de la pagina</h1>
+                <h1>DigitalEvolution S.A</h1>
             </div>
         </header>
     )
